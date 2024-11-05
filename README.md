@@ -32,11 +32,13 @@ This project applies various NLP techniques to understand customer feedback for 
 * string
 * textblob
 * wordcloud
+* gensim
 
 **Data Preprocessing**
 
 Data preprocessing steps include:
 
+* Renaming columns
 * Cleaning Text: Removing special characters, numbers, and extra whitespace.
 * Lowercasing: Converting all text to lowercase for consistency.
 * Tokenization: Breaking down sentences into individual words.
@@ -48,33 +50,38 @@ Data preprocessing steps include:
 
 Exploratory analysis was conducted to understand the distribution of:
 
-Customer Age Groups: Visualizing customer demographics.
-Ratings: Analyzing the rating distribution and identifying any skewness.
-Recommendation Patterns: Understanding factors that drive customer recommendations.
+Average rating corresponding to each product
+Average rating and total number of customers corresponding to each product
+Distribution of Ratings
 Top Words: Identifying the most common words in positive and negative reviews.
-Visualization techniques like histograms, box plots, and bar charts were used for EDA.
 
 **NLP Analysis**
 
-**1. Sentiment Analysis**
+**1. ## Sentiment Analysis with polarity**
 
-Using TextBlob and VADER, we performed sentiment analysis on each review to categorize them as positive, negative, or neutral. This helps gauge overall customer sentiment towards products.
-
-**2. Topic Modeling**
-
-Using techniques like Latent Dirichlet Allocation (LDA), we identified key themes/topics in the reviews. This provided insight into common issues, popular features, or trends among customers.
-
-**3. Word Clouds**
-
-Generated word clouds to visualize frequent words in positive and negative reviews, highlighting what customers like or dislike about products.
-
-**4. Sentiment Analysis by Segments**
-
-Conducted sentiment analysis across various segments, including:
+* Using TextBlob, we performed sentiment analysis on each review to categorize them as positive, negative. This helps gauge overall customer sentiment towards products.
+* Conducted sentiment analysis across various segments, including:
 
 * Age Groups: Identifying sentiment trends in different age demographics.
+* Sub categories: Analyzing sentiment by sub categories.
 * Product Categories: Understanding sentiment by product type.
 * Location: Analyzing sentiment by customer location.
+
+**2. Word Clouds**
+
+Word clouds for positive and negative reviews(based on rating)
+
+**3.Perfom text mining**
+
+To tasks to understand what most frequent words are used for positive sentiment and negative sentiment
+
+**Perfom predictive analytics**
+
+To understand the drivers of customers who are recommending the products
+
+**. Topic Modeling**
+
+Using techniques like Latent Dirichlet Allocation (LDA),created topics and understand themes behind the topics by performing topic mining
 
 **Model Evaluation**
 
@@ -84,12 +91,13 @@ Sentiment Accuracy: Cross-checking with actual recommendations to validate senti
 Topic Coherence: Using coherence scores to evaluate the quality of topic modeling.
 Word Cloud Validation: Cross-verifying word clouds against common topics identified in reviews.
 Results and Interpretation
+
+
 Key insights gained from the analysis include:
 
-Customer Satisfaction: Overall sentiment trends and specific factors driving satisfaction or dissatisfaction.
-Product Improvement: Identified areas where the brand could improve based on common negative feedback.
-Targeted Marketing: Developed recommendations for targeting specific demographics based on sentiment and preferences.
-
+* Customer Satisfaction: Overall sentiment trends and specific factors driving satisfaction or dissatisfaction.
+* Product Improvement: Identified areas where the brand could improve based on common negative feedback.
+* Predictive analysis helped to understand the drivers of customers who are recommending the products
 
 
 

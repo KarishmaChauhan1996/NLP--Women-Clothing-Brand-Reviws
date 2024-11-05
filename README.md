@@ -1,4 +1,4 @@
-# Natual Language Processing--Analysing Women-Clothing-Brand-Reviews
+# Natural Language Processing--Analysing Women-Clothing-Brand-Reviews
 
 This project involves analyzing customer reviews for a clothing brand using Natural Language Processing (NLP) techniques. The goal is to extract insights from customer feedback, including identifying sentiment, key topics, and factors influencing customer recommendations. This README will walk you through the setup, data description, methods, and analysis performed.
 

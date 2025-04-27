@@ -1,25 +1,36 @@
-# Natural Language Processing--Analysing Women-Clothing-Brand-Reviews
+# Overview
+This project involves analyzing customer reviews for a clothing brand using Natural Language Processing (NLP) techniques. 
 
-This project involves analyzing customer reviews for a clothing brand using Natural Language Processing (NLP) techniques. The goal is to extract insights from customer feedback, including identifying sentiment, key topics, and factors influencing customer recommendations. This README will walk you through the setup, data description, methods, and analysis performed.
+
+# Objective
+
+The goal is to extract insights from customer feedback, including identifying sentiment, key topics, and factors influencing customer recommendations. This README will walk you through the setup, data description, methods, and analysis performed.. This project applies various NLP techniques to understand customer feedback for a clothing brand. By analyzing reviews, we aim to uncover insights into customer satisfaction, identify common themes, and perform sentiment analysis. These insights can help inform business decisions around product development, customer service, and marketing strategies.
 
 **Table of Contents**
 
-* Project Overview
 * Dataset
 * Dependencies
 * Data Preprocessing
 * Exploratory Data Analysis (EDA)
 * NLP Analysis
 * Model Evaluation
-* Results and Interpretation
-How to Run
-Future Improvements
-Contributing
-License
+* Key Insights
 
-**Project Overview**
 
-This project applies various NLP techniques to understand customer feedback for a clothing brand. By analyzing reviews, we aim to uncover insights into customer satisfaction, identify common themes, and perform sentiment analysis. These insights can help inform business decisions around product development, customer service, and marketing strategies.
+**Data**
+
+ Data has been provided for 23000+ Customer's Reviews and Ratings with 11 columns. 
+- Product ID- Clothing ID
+- Category- Product Category
+- Subcategory1- Product Subcategory Level1
+- SubCategory2- Product Subcategory Level2
+- Location- Customer Location
+- Customer Age- Customer Age
+- Channel- Channel Used (Web or Mobile)
+- Review- Title Review Title
+- Review- Text Review Description
+- Rating- Review Rating
+- Recommend-Flag Customer willing to recommend product or not 
 
 **Dependencies**
 
@@ -93,7 +104,7 @@ Word Cloud Validation: Cross-verifying word clouds against common topics identif
 Results and Interpretation
 
 
-Key insights gained from the analysis include:
+**Key insights**
 
 * Customer Satisfaction: Overall sentiment trends and specific factors driving satisfaction or dissatisfaction.
 * Product Improvement: Identified areas where the brand could improve based on common negative feedback.
